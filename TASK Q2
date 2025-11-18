@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int x = 5;        // '=' assigns 5 to x
+
+    if (x == 5) {     // '==' compares x to 5
+        printf("x is equal to 5\n");
+    } else {
+        printf("x is not equal to 5\n");
+    }
+
+    return 0;
+}
